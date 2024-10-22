@@ -1,0 +1,22 @@
+{
+  "name": "technical_test_moons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-rules": "eslint .",
+    "fix-rules": "eslint --fix ."
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0"
+  },
+  "author": "David Ontiveros",
+  "license": "ISC"
+}
